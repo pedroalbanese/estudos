@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	info = flag.String("info", "", "additional Info")
+	info = flag.String("info", "", "additional info")
 	key  = flag.String("key", "", "master key")
 	salt = flag.String("salt", "", "salt")
 )
