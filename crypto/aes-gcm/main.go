@@ -39,7 +39,7 @@ func main() {
 			log.Fatal(err)
 		}
 		if len(key) != 256/8 {
-			log.Fatal(err)
+			panic(errors.New("provided key has wrong length"))
 		}
 	}
 
